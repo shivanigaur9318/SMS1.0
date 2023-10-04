@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS1.0MasterServices", "SMS1.0MasterServices\SMS1.0MasterServices.csproj", "{073D2B43-776D-4F0C-A395-A3DF480728A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS1.0TransactionServices", "SMS1.0TransactionServices\SMS1.0TransactionServices.csproj", "{E3CB2459-9234-48C8-ADAF-1706A781F9FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS1.0AngularWeb", "SMS1.0AngularWeb\SMS1.0AngularWeb.csproj", "{8DA9A3D9-72C6-448E-81A6-9C484F619A0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Angularweb", "Angularweb", "{B28F004C-3D6E-48D0-BD19-5FC6A94960DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073D2B43-776D-4F0C-A395-A3DF480728A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073D2B43-776D-4F0C-A395-A3DF480728A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073D2B43-776D-4F0C-A395-A3DF480728A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073D2B43-776D-4F0C-A395-A3DF480728A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CB2459-9234-48C8-ADAF-1706A781F9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CB2459-9234-48C8-ADAF-1706A781F9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CB2459-9234-48C8-ADAF-1706A781F9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CB2459-9234-48C8-ADAF-1706A781F9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA9A3D9-72C6-448E-81A6-9C484F619A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA9A3D9-72C6-448E-81A6-9C484F619A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA9A3D9-72C6-448E-81A6-9C484F619A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA9A3D9-72C6-448E-81A6-9C484F619A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA9A3D9-72C6-448E-81A6-9C484F619A0D} = {B28F004C-3D6E-48D0-BD19-5FC6A94960DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62169956-58B6-40C6-9243-E6AB547A6B77}
+	EndGlobalSection
+EndGlobal
