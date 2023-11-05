@@ -5,7 +5,7 @@ namespace SMS1._0TransactionServices.Models
     public class CommonTransaction
     {
         [Required]
-        public DateTime CreatdDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
         [Required]
         public int CreatedBy { get; set; }
