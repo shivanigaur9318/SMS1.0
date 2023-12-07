@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DatabaseContext>(option => { object value = option.UseSqlServer("data source=(localDb)\\MSSQLLocalDB;initial catalog=SMS1.0;Integrated Security=true"); });
 var app = builder.Build();
+//
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
