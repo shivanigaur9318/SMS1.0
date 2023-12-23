@@ -13,6 +13,8 @@ builder.Services.AddDbContext<DatabaseContext>(option => { object value = option
 var app = builder.Build();
 //
 
+//MacTest
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
